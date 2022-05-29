@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>My Website Style Guide</title>
+</head>
+<body>
+    <div id="main-heading">
+        <h1>Website Styling Guide</h1>
+    </div>
+    <div class="container">
+        <h2>Color</h2>
+        <div class="color-container">
+            <div class="color-panel baby-blue">
+                <p class="color-label">Baby Blue</p>
+                <p class="color-rgba">#89cff0</p>
+            </div>
+            <div class="color-panel pastel-gold">
+                <p class="color-label">Soft Gold</p>
+                <p class="color-rgba">#f0dd89</p>
+            </div>
+            <div class="color-panel light-pink">
+                <p class="color-label">Pink Red</p>
+                <p class="color-rgba">#f0899c</p>
+            </div>
+        </div>
+        <hr>
+        <p>Above is an example of a softer pastel-like color palette that is easy on the eyes, with each color evenly complementing each other. <a href="https://www.sessions.edu/color-calculator/" target="_blank">The Sessions College Color Calculator</a> is a great tool for selecting and finding harmony between different colors you may want to utilize within your website design.</p>
+        <p>When coding colors for your design, there are a few different ways of denoting the shade.</p>
+        <p>The easiest, but most limited, method is to simply type any <a href="https://www.w3schools.com/cssref/css_colors.asp" target="_blank">one of the 140</a> possible color names supported by all browsers.</p>
+        <p>CSS Example:</p>
+        <span>color: <span id="example-color-name">blue</span></span>
+        <p>For a more powerful use of color, you can use any of the following methods to select from over 16 million different colors.</p><hr>
+        <div id="color-guide">
+            <div id="hex-colors">
+                <h3>Hexadecimal Colors</h3>
+                <ul>
+                    <li>color: <span id="hex-1">#34a714</span></li>
+                    <li>color: <span id="hex-2">#d85f8c</span></li>
+                    <li>color: <span id="hex-3">#4b69d2</span></li>
+                </ul>
+                <a href="https://www.w3schools.com/colors/colors_hexadecimal.asp" target="_blank">Hexadecimal Guide</a>
+            </div>
+            <div id="rgb-colors">
+                <h3>RGB Colors</h3>
+                <ul>
+                    <li>color: <span id="rgb-1">rgb(193, 16, 110)</span></li>
+                    <li>color: <span id="rgb-2">rgb(64, 198, 108)</span></li>
+                    <li>color: <span id="rgb-3">rgb(147, 42, 178)</span></li>
+                </ul>
+               <a href="https://www.w3schools.com/colors/colors_rgb.asp" target="_blank">RGB Guide</a>
+            </div>
+            <div id="hsl-guide">
+                <h3>HSL Colors</h3>
+                <ul>
+                    <li>color: <span id="hsl-1">hsl(132, 46%, 30%)</span></li>
+                    <li>color: <span id="hsl-2">hsl(18, 94%, 38%)</span></li>
+                    <li>color: <span id="hsl-3">hsl(226, 78%, 29%)</span></li>
+                </ul>
+                <a href="https://www.w3schools.com/colors/colors_hsl.asp" target="_blank">HSL Guide</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h2>Font</h2>
+            <div class="font-families">
+                <div class="ubuntu">
+                    <h3>Ubuntu</h3>
+                        <p>The quick brown fox jumps over the lazy dog</p>
+                        <p class="bold">The quick brown fox jumps over the lazy dog</p>
+                        <p class="italic">The quick brown fox jumps over the lazy dog</p>
+                </div>
+                <div class="noto-sans">
+                    <h3>Noto Sans</h3>
+                        <p>The quick brown fox jumps over the lazy dog</p>
+                        <p class="bold">The quick brown fox jumps over the lazy dog</p>
+                        <p class="italic">The quick brown fox jumps over the lazy dog</p>
+                </div>
+                <div class="tiro-gurmukhi">
+                    <h3>Tiro Gurmukhi</h3>
+                        <p>The quick brown fox jumps over the lazy dog</p>
+                        <p class="bold">The quick brown fox jumps over the lazy dog</p>
+                        <p class="italic">The quick brown fox jumps over the lazy dog</p>
+                </div>
+            </div>
+            <section class="description">
+            <hr>
+                <p>Along with color, we can use font families to decide how our typeface actually looks.  There are plenty of different font families out there but they all typically reside under three different categories:</p>
+                <ul>
+                    <li class="serif">Serif</li>
+                    <li id="sans-serif">Sans-Serif</li>
+                    <li class="monospace">Monospace</li>
+                </ul>
+                <p class="serif"><strong>Serifs</strong> are the small lines attached to letters. Their origins are a mystery; one theory suggests they arose when scribes using brushes or quills left small marks with the writing implement as they finished each stroke. This evolved into deliberately adding smaller strokes in more regular, artful ways, and those decorative strokes became an expected part of the letters. <br><sub><a href="https://www.adobe.com/creativecloud/design/discover/serif-vs-sans-serif.html" target="_blank">Source</a></sub></p>
+                <p>A <strong>sans-serif</strong> letterform is one that does not have extending features called "serifs" at the end of strokes. Sans-serif typefaces tend to have less stroke width variation than serif typefaces. They are often used to convey simplicity and modernity or minimalism. <br><sub><a href="https://en.wikipedia.org/wiki/Sans-serif" target="_blank">Source</a></sub></p>
+                <p class="monospace">A <strong>monospaced</strong> font, also called a fixed-pitch, fixed-width, or non-proportional font, is a font whose letters and characters each occupy the same amount of horizontal space. This contrasts with variable-width fonts, where the letters and spacings have different widths. <br><sub><a href="https://en.wikipedia.org/wiki/Monospaced_font" target="_blank">Source</a></sub></p>
+            </section>
+    </div>
+    <div class="container">
+        <h2>Text Style</h2>
+            <div class="text-style">
+                <div class="h1-header">
+                    <h1>H1: Main Page Heading</h1>
+                    <ul>
+                        <li>font-weight: 700</li>
+                        <li>font-size: 36px</li>
+                        <li>font-family: Ubuntu</li>
+                    </ul>
+                    <p>The H1 header is typically used for the main heading at the top of a page.  For semantic purposes, remember to only use the H1 header once within a webpage as there is usually only one <strong>main</strong> heading per page.</p>
+                </div>
+                <div class="h2-header">
+                    <h2>H2: Subheading</h2>
+                    <ul>
+                        <li>text-align: left</li>
+                        <li>margin-left: 0</li>
+                        <li>font-family: Ubuntu</li>
+                    </ul>
+                    <p>An H2 header is a secondary header that you can use to emphasize secondary keywords, break up content to make it scannable and easy to read, highlight important pieces of information, and saturate content with keywords.</p><span><a href="https://www.ecreativeworks.com/blog/what-are-h2-headers-and-how-should-you-use-them#:~:text=An%20H2%20header%20is%20a,Saturate%20content%20with%20keywords" target="_blank">Source</a></span>
+                </div>
+                <div class="p-text">
+                    <p>P: Paragraph Text</p>
+                    <ul>
+                        <li>font-size: 20px</li>
+                        <li>font-family: Ubuntu</li>
+                        <li>font-weight: 400</li>
+                    </ul>
+                    <p>The &lt;p&gt; parapraph tag is used for all normal text throughout a webpage.  Use this tag for descriptions, paragraphs, and general information.</p>
+                </div>
+            </div>
+    </div>
+    <footer>
+        <p>Made by James R.</p>
+    </footer>
+</body>
+</html>

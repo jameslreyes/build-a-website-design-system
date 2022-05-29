@@ -1,0 +1,212 @@
+/* Universal Styles */
+
+
+html {
+    font-family: "Ubuntu";
+    margin: 0 20%;
+    font-size: 18px;
+}
+
+body {
+    background-color: white;
+}
+
+
+/* Main Element Styles */
+
+
+p {
+    font-size: 20px;
+}
+
+.container h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 10px
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/* Main Heading Styles */
+
+
+#main-heading {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(240, 240, 240);
+    border: 4px solid #000000;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+
+/* Container Styles */
+
+
+.container {
+    border: 4px solid gray;
+    border-radius: 5px;
+    padding: 10px 30px 20px 30px;
+    margin-bottom: 50px;
+    background-color: rgb(240, 240, 240);
+}
+
+.color-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Color Styles */
+
+
+.color-panel {
+    display: inline-block;
+    text-align: center;
+    margin: 20px auto;
+    width: 40%;
+}
+
+.baby-blue {
+    background-color: #89cff0;
+    padding: 5px 15px;
+}
+
+.pastel-gold {
+    background-color: #f0dd89;
+    padding: 5px 15px;
+}
+
+.light-pink {
+    background-color: #f0899c;
+    padding: 5px 15px;
+}
+
+#example-color-name {
+    color: blue;
+}
+
+#color-guide {
+    display: flex;
+    justify-content: space-around;
+}
+
+#color-guide h3 {
+    text-align: center;
+}
+
+#hex-1 {
+    color: #34a714;
+}
+
+#hex-2 {
+    color: #d85f8c;
+}
+
+#hex-3 {
+    color: #4b69d2;
+}
+
+#rgb-1 {
+    color: rgb(193, 16, 110);
+}
+
+#rgb-2 {
+    color: rgb(64, 198, 108);
+}
+
+#rgb-3 {
+    color: rgb(147, 42, 178);
+}
+
+#hsl-1 {
+    color: hsl(132, 46%, 30%);
+}
+
+#hsl-2 {
+    color: hsl(18, 94%, 38%);
+}
+
+#hsl-3 {
+    color: hsl(226, 78%, 29%);
+}
+
+#color-guide a {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Font Styles */
+
+
+.font-families {
+    display: flex;
+    justify-content: space-around;
+}
+
+.noto-sans {
+    font-family: "Noto Sans";
+    line-height: 25px;
+}
+
+.tiro-gurmukhi {
+    font-family: "Tiro Gurmukhi";
+    line-height: 25px;
+}
+
+.serif {
+    font-family: "Tiro Gurmukhi";
+}
+
+.monospace {
+    font-family: "IBM Plex Mono";
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+
+/* Text Style Styles */
+
+
+.h1-header h1 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.h2-header h2 {
+    text-align: left;
+    margin-left: 0;
+}
+
+.p-text {
+    font-weight: 400;
+}
+
+
+/* Footer Styles */
+
+
+footer p {
+    margin-bottom: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: default;
+    user-select: none;
+}
